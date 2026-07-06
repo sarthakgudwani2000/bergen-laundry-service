@@ -16,6 +16,10 @@ const contactSlides = [
     src: IMAGES.contactSideB,
     alt: "New Bridge Laundromat — self-serve dryers and folding area",
   },
+  {
+    src: IMAGES.contactSlideNew,
+    alt: "Bergen Laundry Service branded van parked outside the storefront",
+  },
 ];
 
 export default function Contact() {
@@ -89,7 +93,7 @@ export default function Contact() {
                 Open map →
               </span>
             </motion.a>
-            <motion.div className="lg:hidden relative rounded-2xl overflow-hidden border border-slate-200 shadow-md card-hover h-52">
+            <motion.div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-md card-hover h-52 lg:h-72">
               <img
                 src={contactSlides[slide].src}
                 alt={contactSlides[slide].alt}
@@ -127,26 +131,6 @@ export default function Contact() {
                 ))}
               </motion.div>
             </motion.div>
-          </motion.div>
-          <motion.div
-            className="hidden lg:block rounded-2xl overflow-hidden border border-slate-200 shadow-md card-hover"
-            data-reveal
-          >
-            <img
-              src={IMAGES.contactSideA}
-              alt="Bergen Laundry Service delivery van"
-              className="w-full h-52 object-cover"
-            />
-          </motion.div>
-          <motion.div
-            className="hidden lg:block rounded-2xl overflow-hidden border border-slate-200 shadow-md card-hover"
-            data-reveal
-          >
-            <img
-              src={IMAGES.contactSideB}
-              alt="New Bridge Laundromat — self-serve dryers and folding area"
-              className="w-full h-52 object-cover"
-            />
           </motion.div>
         </motion.div>
         <motion.div className="order-1 lg:order-2" data-reveal-scale>

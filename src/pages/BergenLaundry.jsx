@@ -32,6 +32,8 @@ const pricing = [
 ];
 
 const bergenSlides = [
+  { src: IMAGES.bergenVanWrapSlide1, alt: "Newly wrapped Bergen Laundry Service van outside the Bergenfield storefront" },
+  { src: IMAGES.bergenVanWrapSlide2, alt: "Newly wrapped Bergen Laundry Service van, side view" },
   { src: IMAGES.bergenPromoVan, alt: "Bergen Laundry Service van and driver" },
   { src: IMAGES.aboutBanner, alt: "Bergenfield laundry facility" },
   { src: IMAGES.bergenPickupAside, alt: "Folded laundry ready for pickup orders", hidden: true },

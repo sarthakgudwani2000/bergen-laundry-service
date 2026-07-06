@@ -144,6 +144,9 @@ const aboutPhoto = img("home-page-image-1c-w1685-o.jpg");
 const commercialDryers = img("laundromat-dryers.png");
 const operationBags = img("laundry-operation-bags.png");
 const washFoldStaff = img("wash-fold-staff.png");
+const contactSlideNew = img("ContactUs-Page-slide.jpg");
+const bergenVanWrapSlide1 = img("BergenLaundryService-Page-slide-1.jpg");
+const bergenVanWrapSlide2 = img("BergenLaundryService-Page-slide-2.jpg");
 
 export const IMAGES = {
   clientBergenVan: homePagePromo,
@@ -169,6 +172,8 @@ export const IMAGES = {
   bergenPromoVan: homePagePromo,
   bergenPickupAside: washFoldStaff,
   bergenParallax: operationBags,
+  bergenVanWrapSlide1,
+  bergenVanWrapSlide2,
 
   servicesPickup: pickupServices,
   servicesWashFold: washFoldServices1,
@@ -186,6 +191,7 @@ export const IMAGES = {
   aboutBanner: aboutPhoto,
   contactSideA: homePagePromo,
   contactSideB: newBridgeHome,
+  contactSlideNew,
 };
 
 export const PICKUP_WINDOWS = [
